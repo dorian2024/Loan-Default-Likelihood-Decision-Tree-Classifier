@@ -1,4 +1,4 @@
-# 💳 Loan Default Prediction using Decision Tree Classifier
+# Loan Default Prediction using Decision Tree Classifier
 
 This project aims to predict the likelihood of a loan applicant defaulting using a **Decision Tree Classifier**. Built collaboratively by a team of three, the project walks through a complete machine learning pipeline—from data preprocessing to model evaluation and interpretation.
 
@@ -6,31 +6,31 @@ This project aims to predict the likelihood of a loan applicant defaulting using
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 We used the [`application_train.csv`](https://www.kaggle.com/competitions/home-credit-default-risk/data) file from the **Home Credit Default Risk** dataset available on Kaggle.
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
-### 📊 Data Understanding & Preprocessing
+### Data Understanding & Preprocessing
 - Load and explore `application_train.csv`
 - Handle missing values
 - Encode categorical variables (Label Encoding & One-Hot Encoding)
 - Perform data cleaning and type conversions
 
-### ⚙️ Feature Engineering
+### Feature Engineering
 - Removed unnecessary features
 - Handled outliers and skewed distributions
 - Scaled/normalized numeric features (where necessary)
 
-### 🧠 Model Training
+### Model Training
 - Split the data into **train / validation / test** sets
 - Trained a **Decision Tree Classifier** using scikit-learn
 - Tuned hyperparameters using **GridSearchCV**
 
-### 📈 Model Evaluation
+### Model Evaluation
 - Evaluated using:
   - Accuracy
   - Precision
@@ -42,24 +42,24 @@ We used the [`application_train.csv`](https://www.kaggle.com/competitions/home-c
   - ROC Curve (AUC = 0.71)
 - Visualized tree using `plot_tree()`
 
-### 📉 Optimization & Interpretation
+### Optimization & Interpretation
 - Applied pruning (depth limitation) to reduce overfitting
 - Visualized **feature importance**
 - Compared performance with **Random Forest Classifier**
 
-### ✅ Finalization
+### Finalization
 - Saved the final model using `pickle`
 
 ---
 
 
-## 🤔 Limitations
+## Limitations
 
 - **Overfitting**: The decision tree memorized patterns from training data but struggled on data for class 1.
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 - Umaima Zeeshan
 - Mehral Arif
@@ -68,7 +68,7 @@ We used the [`application_train.csv`](https://www.kaggle.com/competitions/home-c
 
 ---
 
-## 💾 How to Run
+## How to Run
 
 1. Clone the repo:
     ```bash
@@ -87,7 +87,7 @@ We used the [`application_train.csv`](https://www.kaggle.com/competitions/home-c
 
 
 
-## 📝 License
+## License
 
 This project is for academic purposes only.
 

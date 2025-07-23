@@ -72,7 +72,7 @@ We used the [`application_train.csv`](https://www.kaggle.com/competitions/home-c
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/dorian-2024/Loan-Default-Likelihood-Decision-Tree-Classifier.git
+    git clone https://github.com/dorian2024/Loan-Default-Likelihood-Decision-Tree-Classifier.git
     cd Loan-Default-Likelihood-Decision-Tree-Classifier
     ```
 
